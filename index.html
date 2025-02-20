@@ -171,10 +171,12 @@
 
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="33c30dc7-2c06-47a4-86ee-4426c90ae719">
-                <input type="text" placeholder="Enter Your Name" class="box">
-                <input type="email" placeholder="Enter Your E-Mail" class="box">
-                <input type="number" placeholder="Enter Your Contact No:" class="box">
-                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Enter Message"></textarea>
+                
+                <input type="text" name="name" placeholder="Enter Your Name" class="box">
+                <input type="email" name="email" placeholder="Enter Your E-Mail" class="box">
+                <input type="number" name="contact" placeholder="Enter Your Contact No:" class="box">
+                <textarea name="message" cols="30" rows="10" class="box message" placeholder="Enter Message"></textarea>
+                
                 <button class="btn" type="submit"> Send <i class="fas fa-paper-plane"></i></button>
             </form>
 
